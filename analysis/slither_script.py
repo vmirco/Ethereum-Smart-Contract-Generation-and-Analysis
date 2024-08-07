@@ -1,49 +1,55 @@
 import os
 import sys
 import subprocess
+import re
 
 #Function to run Slither analysis on a Solidity contract file
-def run_slither_analysis(contract_file, exclude_low):
-    base_command = ["slither", contract_file, "--exclude-dependencies", "--exclude-optimization", "--exclude-informational"]
-
-    #If requested add the --exclude-low flag
-    if exclude_low:
-        base_command.append("--exclude-low")
-    
+def run_slither_analysis(contract_file):
     try:
-        result = subprocess.run(base_command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, check=True)
-        return result.stdout.strip()
+        result = subprocess.run(
+            ['slither', contract_file, '--print', 'human-summary'],
+            stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, check=True)
+        
+        return result.stderr.strip()
     
     except subprocess.CalledProcessError as e:
         return e.stderr
 
 #Function to extract the number of vulnerabilities found from the output
 def extract_vulnerabilities_count(output):
-    try:
-        lines = output.split('\n')
-        for line in lines:
-            if line.startswith("Compilation warnings/errors on"):
-                return -1
+    total_vulnerabilities = 0
+    informational = 0
+    optimization = 0
+    low_issues = 0
+    medium_issues = 0
+    high_issues = 0
 
-        #Search for the string "result(s) found" in the output
-        results_start = output.rfind("result(s) found")
-        if results_start != -1:
-            #Get the number of vulnerabilities found, which is the number before "result(s) found"
-            number_start = output.rfind(',', 0, results_start) + 1
-            #Extract and convert the number to an integer
-            count = int(output[number_start:results_start].strip())
-            return count
-    except ValueError:
-        pass
-    return 0
+    lines = output.split('\n')
+
+    for line in lines:
+        if line.startswith("Compilation warnings/errors on"):
+                return -1, -1, -1, -1, -1, -1
+        if "Number of optimization issues:" in line:
+            optimization = int(line.split(':')[1].strip())
+        elif "Number of informational issues:" in line:
+            informational = int(line.split(':')[1].strip())
+        elif "Number of low issues:" in line:
+            low_issues = int(line.split(':')[1].strip())
+        elif "Number of medium issues:" in line:
+            medium_issues = int(line.split(':')[1].strip())
+        elif "Number of high issues:" in line:
+            high_issues = int(line.split(':')[1].strip())
+
+    total_vulnerabilities = optimization + informational + low_issues + medium_issues + high_issues
+
+    return total_vulnerabilities, high_issues, low_issues, medium_issues, optimization, informational
 
 def main():
-    #ASK FOR DIRECTORY AS INPUT
+    #NEED THE CONTRACTS DIRECTORY
     if len(sys.argv) < 2:
         print("Usage: python3 slither_script.py <contracts_directory>")
         sys.exit(1)
 
-    #CHECK IF THE DIRECTORY EXISTS
     contracts_directory = sys.argv[1]
     if not os.path.isdir(contracts_directory):
         print(f"Folder {contracts_directory} not found")
@@ -54,19 +60,14 @@ def main():
         if filename.endswith(".sol"):
             contract_file = os.path.join(contracts_directory, filename)
 
-            #ANALYSIS WITHOUT --EXCLUDE-LOW FLAG
-            output_without_exclude_low = run_slither_analysis(contract_file, exclude_low=False)
-            vulnerabilities_count = extract_vulnerabilities_count(output_without_exclude_low)
+            output = run_slither_analysis(contract_file)
+            vulnerabilities_total, high_issues, low_issues, medium_issues, optimization, informational = extract_vulnerabilities_count(output)
 
-            #ANALYSIS WITH --EXCLUDE-LOW FLAG
-            output_with_exclude_low = run_slither_analysis(contract_file, exclude_low=True)
-            high_severity_count = extract_vulnerabilities_count(output_with_exclude_low)
-
-            #PRINT THE RESULTS
-            if vulnerabilities_count == -1 or high_severity_count == -1:
+            #RESULTS
+            if vulnerabilities_total == -1:
                 print(f"{filename}: Slither - contract not compilable")
             else:
-                print(f"{filename}: Slither found {vulnerabilities_count} vulnerability(s), {high_severity_count} of type high.")
+                print(f"{filename}: Slither found {vulnerabilities_total} vulnerability(s), {high_issues} of type high, {low_issues} of type low, {medium_issues} of type medium, {optimization} of type optimization, {informational} of type informational")
 
 if __name__ == "__main__":
     main()
