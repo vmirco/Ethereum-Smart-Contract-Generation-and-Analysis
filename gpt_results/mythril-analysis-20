@@ -1,0 +1,418 @@
+contract_82.sol: Mythril - contract not compilable or error during analysis
+contract_135.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_135.sol: Vulnerabilities found:  {}
+contract_151.sol: Mythril - contract not compilable or error during analysis
+contract_210.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_210.sol: Vulnerabilities found:  {}
+contract_11.sol: Mythril found 2 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_11.sol: Vulnerabilities found:  {'107': 2}
+contract_163.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_163.sol: Vulnerabilities found:  {}
+contract_68.sol: Mythril - contract not compilable or error during analysis
+contract_8.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_8.sol: Vulnerabilities found:  {}
+contract_96.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_96.sol: Vulnerabilities found:  {}
+contract_59.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_59.sol: Vulnerabilities found:  {}
+contract_9.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_9.sol: Vulnerabilities found:  {}
+contract_155.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_155.sol: Vulnerabilities found:  {}
+contract_78.sol: Mythril - contract not compilable or error during analysis
+contract_200.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_200.sol: Vulnerabilities found:  {}
+contract_114.sol: Mythril - contract not compilable or error during analysis
+contract_98.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_98.sol: Vulnerabilities found:  {}
+contract_152.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_152.sol: Vulnerabilities found:  {}
+contract_30.sol: Mythril - contract not compilable or error during analysis
+contract_212.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_212.sol: Vulnerabilities found:  {}
+contract_130.sol: Mythril - contract not compilable or error during analysis
+contract_14.sol: Mythril - contract not compilable or error during analysis
+contract_51.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_51.sol: Vulnerabilities found:  {}
+contract_187.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_187.sol: Vulnerabilities found:  {}
+contract_55.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_55.sol: Vulnerabilities found:  {}
+contract_100.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_100.sol: Vulnerabilities found:  {}
+contract_75.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_75.sol: Vulnerabilities found:  {}
+contract_112.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_112.sol: Vulnerabilities found:  {}
+contract_226.sol: Mythril - contract not compilable or error during analysis
+contract_71.sol: Mythril - contract not compilable or error during analysis
+contract_169.sol: Mythril - contract not compilable or error during analysis
+contract_56.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_56.sol: Vulnerabilities found:  {}
+contract_184.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_184.sol: Vulnerabilities found:  {}
+contract_12.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_12.sol: Vulnerabilities found:  {}
+contract_126.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_126.sol: Vulnerabilities found:  {}
+contract_65.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_65.sol: Vulnerabilities found:  {}
+contract_240.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_240.sol: Vulnerabilities found:  {}
+contract_224.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_224.sol: Vulnerabilities found:  {}
+contract_6.sol: Mythril - contract not compilable or error during analysis
+contract_150.sol: Mythril found 0 Low vulnerabilities, 1 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_150.sol: Vulnerabilities found:  {'110': 1}
+contract_166.sol: Mythril - contract not compilable or error during analysis
+contract_242.sol: Mythril - contract not compilable or error during analysis
+contract_57.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_57.sol: Vulnerabilities found:  {}
+contract_79.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_79.sol: Vulnerabilities found:  {}
+contract_52.sol: Mythril found 1 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_52.sol: Vulnerabilities found:  {'116': 1}
+contract_46.sol: Mythril - contract not compilable or error during analysis
+contract_141.sol: Mythril - contract not compilable or error during analysis
+contract_109.sol: Mythril - contract not compilable or error during analysis
+contract_215.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_215.sol: Vulnerabilities found:  {}
+contract_77.sol: Mythril found 1 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_77.sol: Vulnerabilities found:  {'107': 1}
+contract_31.sol: Mythril - contract not compilable or error during analysis
+contract_121.sol: Mythril - contract not compilable or error during analysis
+contract_193.sol: Mythril - contract not compilable or error during analysis
+contract_58.sol: Mythril - contract not compilable or error during analysis
+contract_107.sol: Mythril - contract not compilable or error during analysis
+contract_116.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_116.sol: Vulnerabilities found:  {}
+contract_108.sol: Mythril - contract not compilable or error during analysis
+contract_4.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_4.sol: Vulnerabilities found:  {}
+contract_205.sol: Mythril - contract not compilable or error during analysis
+contract_228.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_228.sol: Vulnerabilities found:  {}
+contract_171.sol: Mythril found 3 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_171.sol: Vulnerabilities found:  {'107': 3}
+contract_223.sol: Mythril - contract not compilable or error during analysis
+contract_217.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_217.sol: Vulnerabilities found:  {}
+contract_165.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_165.sol: Vulnerabilities found:  {}
+contract_244.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_244.sol: Vulnerabilities found:  {}
+contract_196.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_196.sol: Vulnerabilities found:  {}
+contract_111.sol: Mythril - contract not compilable or error during analysis
+contract_13.sol: Mythril found 5 Low vulnerabilities, 2 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_13.sol: Vulnerabilities found:  {'107': 5, '113': 2}
+contract_232.sol: Mythril - contract not compilable or error during analysis
+contract_170.sol: Mythril - contract not compilable or error during analysis
+contract_194.sol: Mythril found 2 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_194.sol: Vulnerabilities found:  {'107': 2}
+contract_246.sol: Mythril - contract not compilable or error during analysis
+contract_35.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_35.sol: Vulnerabilities found:  {}
+contract_21.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_21.sol: Vulnerabilities found:  {}
+contract_3.sol: Mythril found 2 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_3.sol: Vulnerabilities found:  {'107': 2}
+contract_238.sol: Mythril - contract not compilable or error during analysis
+contract_26.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_26.sol: Vulnerabilities found:  {}
+contract_190.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_190.sol: Vulnerabilities found:  {}
+contract_84.sol: Mythril - contract not compilable or error during analysis
+contract_250.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_250.sol: Vulnerabilities found:  {}
+contract_167.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_167.sol: Vulnerabilities found:  {}
+contract_120.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_120.sol: Vulnerabilities found:  {}
+contract_83.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_83.sol: Vulnerabilities found:  {}
+contract_99.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_99.sol: Vulnerabilities found:  {}
+contract_32.sol: Mythril - contract not compilable or error during analysis
+contract_131.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_131.sol: Vulnerabilities found:  {}
+contract_161.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_161.sol: Vulnerabilities found:  {}
+contract_66.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_66.sol: Vulnerabilities found:  {}
+contract_198.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_198.sol: Vulnerabilities found:  {}
+contract_87.sol: Mythril - contract not compilable or error during analysis
+contract_230.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_230.sol: Vulnerabilities found:  {}
+contract_73.sol: Mythril - contract not compilable or error during analysis
+contract_164.sol: Mythril - contract not compilable or error during analysis
+contract_1.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_1.sol: Vulnerabilities found:  {}
+contract_140.sol: Mythril - contract not compilable or error during analysis
+contract_104.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_104.sol: Vulnerabilities found:  {}
+contract_180.sol: Mythril found 2 Low vulnerabilities, 0 Medium vulnerabilities, 1 High vulnerabilities
+gpt_contracts/contract_180.sol: Vulnerabilities found:  {'107': 1, '105': 1, '116': 1}
+contract_216.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_216.sol: Vulnerabilities found:  {}
+contract_45.sol: Mythril - contract not compilable or error during analysis
+contract_241.sol: Mythril found 1 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_241.sol: Vulnerabilities found:  {'116': 1}
+contract_85.sol: Mythril - contract not compilable or error during analysis
+contract_34.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_34.sol: Vulnerabilities found:  {}
+contract_97.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_97.sol: Vulnerabilities found:  {}
+contract_195.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_195.sol: Vulnerabilities found:  {}
+contract_42.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_42.sol: Vulnerabilities found:  {}
+contract_157.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_157.sol: Vulnerabilities found:  {}
+contract_24.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_24.sol: Vulnerabilities found:  {}
+contract_95.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 2 High vulnerabilities
+gpt_contracts/contract_95.sol: Vulnerabilities found:  {'112': 2}
+contract_103.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_103.sol: Vulnerabilities found:  {}
+contract_113.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_113.sol: Vulnerabilities found:  {}
+contract_50.sol: Mythril - contract not compilable or error during analysis
+contract_158.sol: Mythril - contract not compilable or error during analysis
+contract_181.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_181.sol: Vulnerabilities found:  {}
+contract_248.sol: Mythril - contract not compilable or error during analysis
+contract_188.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 1 High vulnerabilities
+gpt_contracts/contract_188.sol: Vulnerabilities found:  {'105': 1}
+contract_191.sol: Mythril - contract not compilable or error during analysis
+contract_15.sol: Mythril - contract not compilable or error during analysis
+contract_133.sol: Mythril - contract not compilable or error during analysis
+contract_209.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_209.sol: Vulnerabilities found:  {}
+contract_138.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_138.sol: Vulnerabilities found:  {}
+contract_174.sol: Mythril - contract not compilable or error during analysis
+contract_5.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_5.sol: Vulnerabilities found:  {}
+contract_175.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_175.sol: Vulnerabilities found:  {}
+contract_29.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_29.sol: Vulnerabilities found:  {}
+contract_117.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_117.sol: Vulnerabilities found:  {}
+contract_122.sol: Mythril - contract not compilable or error during analysis
+contract_28.sol: Mythril - contract not compilable or error during analysis
+contract_199.sol: Mythril found 2 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_199.sol: Vulnerabilities found:  {'113': 1, '120': 1}
+contract_53.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_53.sol: Vulnerabilities found:  {}
+contract_16.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_16.sol: Vulnerabilities found:  {}
+contract_54.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_54.sol: Vulnerabilities found:  {}
+contract_62.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_62.sol: Vulnerabilities found:  {}
+contract_149.sol: Mythril - contract not compilable or error during analysis
+contract_144.sol: Mythril - contract not compilable or error during analysis
+contract_124.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_124.sol: Vulnerabilities found:  {}
+contract_22.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_22.sol: Vulnerabilities found:  {}
+contract_106.sol: Mythril - contract not compilable or error during analysis
+contract_179.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_179.sol: Vulnerabilities found:  {}
+contract_119.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_119.sol: Vulnerabilities found:  {}
+contract_162.sol: Mythril - contract not compilable or error during analysis
+contract_90.sol: Mythril found 1 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_90.sol: Vulnerabilities found:  {'107': 1}
+contract_18.sol: Mythril - contract not compilable or error during analysis
+contract_208.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_208.sol: Vulnerabilities found:  {}
+contract_125.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_125.sol: Vulnerabilities found:  {}
+contract_178.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_178.sol: Vulnerabilities found:  {}
+contract_231.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_231.sol: Vulnerabilities found:  {}
+contract_63.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_63.sol: Vulnerabilities found:  {}
+contract_27.sol: Mythril - contract not compilable or error during analysis
+contract_235.sol: Mythril found 1 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_235.sol: Vulnerabilities found:  {'115': 1}
+contract_88.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_88.sol: Vulnerabilities found:  {}
+contract_128.sol: Mythril - contract not compilable or error during analysis
+contract_70.sol: Mythril - contract not compilable or error during analysis
+contract_182.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_182.sol: Vulnerabilities found:  {}
+contract_61.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_61.sol: Vulnerabilities found:  {}
+contract_38.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_38.sol: Vulnerabilities found:  {}
+contract_36.sol: Mythril - contract not compilable or error during analysis
+contract_67.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_67.sol: Vulnerabilities found:  {}
+contract_37.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_37.sol: Vulnerabilities found:  {}
+contract_118.sol: Mythril - contract not compilable or error during analysis
+contract_185.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_185.sol: Vulnerabilities found:  {}
+contract_186.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 1 High vulnerabilities
+gpt_contracts/contract_186.sol: Vulnerabilities found:  {'105': 1}
+contract_132.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_132.sol: Vulnerabilities found:  {}
+contract_206.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 1 High vulnerabilities
+gpt_contracts/contract_206.sol: Vulnerabilities found:  {'105': 1}
+contract_19.sol: Mythril found 1 Low vulnerabilities, 1 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_19.sol: Vulnerabilities found:  {'107': 1, '114': 1}
+contract_123.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_123.sol: Vulnerabilities found:  {}
+contract_115.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_115.sol: Vulnerabilities found:  {}
+contract_148.sol: Mythril - contract not compilable or error during analysis
+contract_147.sol: Mythril - contract not compilable or error during analysis
+contract_20.sol: Mythril found 3 Low vulnerabilities, 5 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_20.sol: Vulnerabilities found:  {'107': 8}
+contract_153.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_153.sol: Vulnerabilities found:  {}
+contract_160.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_160.sol: Vulnerabilities found:  {}
+contract_41.sol: Mythril - contract not compilable or error during analysis
+contract_129.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_129.sol: Vulnerabilities found:  {}
+contract_168.sol: Mythril - contract not compilable or error during analysis
+contract_227.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_227.sol: Vulnerabilities found:  {}
+contract_237.sol: Mythril - contract not compilable or error during analysis
+contract_137.sol: Mythril found 3 Low vulnerabilities, 5 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_137.sol: Vulnerabilities found:  {'113': 2, '123': 3, '107': 3}
+contract_183.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_183.sol: Vulnerabilities found:  {}
+contract_239.sol: Mythril found 0 Low vulnerabilities, 1 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_239.sol: Vulnerabilities found:  {'114': 1}
+contract_49.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_49.sol: Vulnerabilities found:  {}
+contract_177.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_177.sol: Vulnerabilities found:  {}
+contract_202.sol: Mythril - contract not compilable or error during analysis
+contract_110.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_110.sol: Vulnerabilities found:  {}
+contract_40.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_40.sol: Vulnerabilities found:  {}
+contract_60.sol: Mythril found 1 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_60.sol: Vulnerabilities found:  {'120': 1}
+contract_69.sol: Mythril - contract not compilable or error during analysis
+contract_211.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_211.sol: Vulnerabilities found:  {}
+contract_204.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_204.sol: Vulnerabilities found:  {}
+contract_48.sol: Mythril - contract not compilable or error during analysis
+contract_176.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_176.sol: Vulnerabilities found:  {}
+contract_81.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_81.sol: Vulnerabilities found:  {}
+contract_72.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_72.sol: Vulnerabilities found:  {}
+contract_222.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_222.sol: Vulnerabilities found:  {}
+contract_159.sol: Mythril - contract not compilable or error during analysis
+contract_2.sol: Mythril found 1 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_2.sol: Vulnerabilities found:  {'107': 1}
+contract_225.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_225.sol: Vulnerabilities found:  {}
+contract_146.sol: Mythril - contract not compilable or error during analysis
+contract_234.sol: Mythril - contract not compilable or error during analysis
+contract_233.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_233.sol: Vulnerabilities found:  {}
+contract_213.sol: Mythril - contract not compilable or error during analysis
+contract_127.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_127.sol: Vulnerabilities found:  {}
+contract_249.sol: Mythril - contract not compilable or error during analysis
+contract_197.sol: Mythril - contract not compilable or error during analysis
+contract_221.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_221.sol: Vulnerabilities found:  {}
+contract_134.sol: Mythril - contract not compilable or error during analysis
+contract_23.sol: Mythril - contract not compilable or error during analysis
+contract_7.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_7.sol: Vulnerabilities found:  {}
+contract_139.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_139.sol: Vulnerabilities found:  {}
+contract_43.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_43.sol: Vulnerabilities found:  {}
+contract_92.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_92.sol: Vulnerabilities found:  {}
+contract_173.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_173.sol: Vulnerabilities found:  {}
+contract_17.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_17.sol: Vulnerabilities found:  {}
+contract_201.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_201.sol: Vulnerabilities found:  {}
+contract_89.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_89.sol: Vulnerabilities found:  {}
+contract_86.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_86.sol: Vulnerabilities found:  {}
+contract_44.sol: Mythril - contract not compilable or error during analysis
+contract_64.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_64.sol: Vulnerabilities found:  {}
+contract_236.sol: Mythril - contract not compilable or error during analysis
+contract_102.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_102.sol: Vulnerabilities found:  {}
+contract_243.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_243.sol: Vulnerabilities found:  {}
+contract_94.sol: Mythril found 3 Low vulnerabilities, 2 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_94.sol: Vulnerabilities found:  {'107': 4, '113': 1}
+contract_76.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_76.sol: Vulnerabilities found:  {}
+contract_220.sol: Mythril - contract not compilable or error during analysis
+contract_219.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_219.sol: Vulnerabilities found:  {}
+contract_192.sol: Mythril found 1 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_192.sol: Vulnerabilities found:  {'116': 1}
+contract_80.sol: Mythril - contract not compilable or error during analysis
+contract_245.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_245.sol: Vulnerabilities found:  {}
+contract_145.sol: Mythril - contract not compilable or error during analysis
+contract_229.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_229.sol: Vulnerabilities found:  {}
+contract_74.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_74.sol: Vulnerabilities found:  {}
+contract_172.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_172.sol: Vulnerabilities found:  {}
+contract_247.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_247.sol: Vulnerabilities found:  {}
+contract_39.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_39.sol: Vulnerabilities found:  {}
+contract_189.sol: Mythril - contract not compilable or error during analysis
+contract_136.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_136.sol: Vulnerabilities found:  {}
+contract_93.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_93.sol: Vulnerabilities found:  {}
+contract_207.sol: Mythril - contract not compilable or error during analysis
+contract_47.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_47.sol: Vulnerabilities found:  {}
+contract_142.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_142.sol: Vulnerabilities found:  {}
+contract_143.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_143.sol: Vulnerabilities found:  {}
+contract_218.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_218.sol: Vulnerabilities found:  {}
+contract_203.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_203.sol: Vulnerabilities found:  {}
+contract_10.sol: Mythril found 2 Low vulnerabilities, 1 Medium vulnerabilities, 1 High vulnerabilities
+gpt_contracts/contract_10.sol: Vulnerabilities found:  {'116': 2, '114': 1, '105': 1}
+contract_101.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_101.sol: Vulnerabilities found:  {}
+contract_25.sol: Mythril - contract not compilable or error during analysis
+contract_105.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_105.sol: Vulnerabilities found:  {}
+contract_91.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_91.sol: Vulnerabilities found:  {}
+contract_154.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_154.sol: Vulnerabilities found:  {}
+contract_214.sol: Mythril found 0 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_214.sol: Vulnerabilities found:  {}
+contract_156.sol: Mythril found 1 Low vulnerabilities, 0 Medium vulnerabilities, 0 High vulnerabilities
+gpt_contracts/contract_156.sol: Vulnerabilities found:  {'116': 1}
+contract_33.sol: Mythril - contract not compilable or error during analysis
