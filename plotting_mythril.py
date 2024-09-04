@@ -12,11 +12,6 @@ def analyze_vulnerabilities(file_path):
     total_high_vulnerabilities = 0
     total_vulnerable_contracts = 0
 
-    #Dictionaries to store the number of vulnerabilities per contract
-    low_per_contract = defaultdict(int)
-    medium_per_contract = defaultdict(int)
-    high_per_contract = defaultdict(int)
-
     with open(file_path, 'r') as file:
         lines = file.readlines()
 
@@ -30,41 +25,20 @@ def analyze_vulnerabilities(file_path):
                 medium_count = int(match.group(2))
                 high_count = int(match.group(3))
 
-                #Update the counters of vulnerabilities
                 total_low_vulnerabilities += low_count
                 total_medium_vulnerabilities += medium_count
                 total_high_vulnerabilities += high_count
-                if(low_count + medium_count + high_count > 0): total_vulnerable_contracts += 1
+                if(low_count + medium_count + high_count > 0): 
+                    total_vulnerable_contracts += 1
 
-                contract_name = line.split(':')[0].strip()
-                #Update the counters of vulnerabilities per contract
-                #At the end of the loop, the dictionaries will contain the number of vulnerabilities for each contract
-                low_per_contract[contract_name] = low_count
-                medium_per_contract[contract_name] = medium_count
-                high_per_contract[contract_name] = high_count
-
-    #Average number of vulnerabilities per contract
     average_low = total_low_vulnerabilities / total_vulnerable_contracts if total_vulnerable_contracts > 0 else 0
     average_medium = total_medium_vulnerabilities / total_vulnerable_contracts if total_vulnerable_contracts > 0 else 0
     average_high = total_high_vulnerabilities / total_vulnerable_contracts if total_vulnerable_contracts > 0 else 0
 
-    #PRINT RESULTS
-    print(f"Non compilable contracts: {not_compilable}")
-    print(f"Low vulnerabilities: {total_low_vulnerabilities}")
-    print(f"Medium vulnerabilities: {total_medium_vulnerabilities}")
-    print(f"High vulnerabilities: {total_high_vulnerabilities}")
-    
-    print("\nVulnerabilities type average per contract:")
-    print(f"Low: {average_low:.2f}")
-    print(f"Medium: {average_medium:.2f}")
-    print(f"High: {average_high:.2f}")
-    
     return total_vulnerable_contracts, not_compilable, total_low_vulnerabilities, total_medium_vulnerabilities, total_high_vulnerabilities, average_low, average_medium, average_high
 
 def extract_vulnerabilities(data):
     vulnerabilities = defaultdict(int)
-    
-    #Regex pattern to match the ID and the occurrences of each vulnerability
     pattern = re.compile(r"'(\d+)':\s*(\d+)")
     
     for line in data.splitlines():
@@ -75,65 +49,80 @@ def extract_vulnerabilities(data):
     
     return dict(vulnerabilities)
 
-def plot_data(total_vulnerable_contracts, not_compilable, total_low_vulnerabilities, total_medium_vulnerabilities, total_high_vulnerabilities, average_low, average_medium, average_high, vulnerability_dict):
-    
-    #BAR CHART - Average Vulnerabilities per Contract by Severity
+#analyze_vulnerabilties return order:
+#1 Total number of vulnerable contracts
+#2 Total number of non compilable contracts
+#3 Total number of low vulnerabilities
+#4 Total number of medium vulnerabilties
+#5 Totalnumber of high vulnerabilities
+#6 Average number of low vulnerabilities
+#7 Average number of medium vulnerabilities
+#8 Average number of high vulnerabilities
+def plot_data_comparison(gpt_data, deepseek_data, gpt_dict, deepseek_dict):
+    #BAR CHART 1 - Comparison by Severity
+    #Plot a bar chart that shows how many vulnerabilties were found divided by severity
+    #Direct comparison between the models, for severity there's one bar for GPT and one for DeepSeek
     labels = ['Low', 'Medium', 'High']
-    values = [average_low, average_medium, average_high]
+    gpt_values = [gpt_data[5], gpt_data[6], gpt_data[7]]
+    deepseek_values = [deepseek_data[5], deepseek_data[6], deepseek_data[7]]
+
+    x = range(len(labels))
 
     plt.figure(figsize=(10, 5))
-    plt.bar(labels, values, color=['#2E8B57', '#A30000', '#336699'], width=0.5)
-    plt.title('Average Vulnerabilities per Contract by Severity')
+    plt.bar(x, gpt_values, width=0.4, label='GPT', color='#A30000', align='center')
+    plt.bar([i + 0.4 for i in x], deepseek_values, width=0.4, label='DeepSeek', color='#336699', align='center')
+
+    plt.xticks([i + 0.2 for i in x], labels)
     plt.ylabel('Average Number of Vulnerabilities')
-    plt.ylim(0, 3) 
+    plt.legend()
     plt.show()
 
-    #PIE CHART - Total Vulnerability Distribution
+    #PIE CHART - with GPT data
+    #Pie chart showing how many Low, Medium and High vuln were found
     plt.figure(figsize=(8, 8))
     labels_pie = ['Low', 'Medium', 'High']
-    values_pie = [total_low_vulnerabilities, total_medium_vulnerabilities, total_high_vulnerabilities]
+    values_pie = [gpt_data[2], gpt_data[3], gpt_data[4]]
     colors_pie = ['#2E8B57', '#A30000', '#336699']
-
-    wedges, texts, autotexts = plt.pie(values_pie, labels=labels_pie, autopct='%1.1f%%', startangle=140, colors=colors_pie)
-    plt.title('Total Vulnerability Distribution')
-
-    #Notation for the total number of vulnerable contracts
-    plt.gca().add_artist(plt.Circle((1.1, 1.1), 0.1, color='white', transform=plt.gca().transAxes, zorder=0))
-    plt.text(1.1, 1.1, f'Total Vulnerable Contracts: {total_vulnerable_contracts}', horizontalalignment='left', verticalalignment='top', transform=plt.gca().transAxes, fontsize=12, bbox=dict(facecolor='white', edgecolor='black', boxstyle='round,pad=0.5'))
-
+    plt.pie(values_pie, labels=labels_pie, autopct='%1.1f%%', startangle=140, colors=colors_pie)
     plt.show()
 
-    # BAR CHART - Total Vulnerability Distribution by ID
-    plt.figure(figsize=(10, 5))
-    #Extract the labels and values from the dictionary and calculate the total number of vulnerabilities
-    labels_vul = list(vulnerability_dict.keys())
-    values_vul = list(vulnerability_dict.values())
-    total_vulnerabilities = sum(values_vul)
+    #PIE CHART - with DeepSeek data (same as above)
+    plt.figure(figsize=(8, 8))
+    values_pie_deepseek = [deepseek_data[2], deepseek_data[3], deepseek_data[4]]
+    plt.pie(values_pie_deepseek, labels=labels_pie, autopct='%1.1f%%', startangle=140, colors=colors_pie)
+    plt.show()
 
-    colors = ['#A30000' if i % 2 == 0 else '#336699' for i in range(len(labels_vul))] #Alternate colors for the bars
-    bars = plt.bar(labels_vul, values_vul, color=colors)
-    plt.title('Vulnerability Distribution by ID')
-    plt.xlabel('Vulnerability ID')
+    #BAR CHART 2 - Comparison with vulnerability IDs
+    ids = sorted(set(gpt_dict.keys()).union(deepseek_dict.keys()))
+    gpt_counts = [gpt_dict.get(id, 0) for id in ids]
+    deepseek_counts = [deepseek_dict.get(id, 0) for id in ids]
+
+    x = range(len(ids))
+
+    plt.figure(figsize=(12, 6))
+    plt.bar(x, gpt_counts, width=0.4, label='GPT', color='#A30000', align='center')
+    plt.bar([i + 0.4 for i in x], deepseek_counts, width=0.4, label='DeepSeek', color='#336699', align='center')
+
+    plt.xticks([i + 0.2 for i in x], ids, rotation=90)
     plt.ylabel('Number of Occurrences')
-    #Add a notation for the total number of vulnerabilities at the top of the chart
-    plt.text(1.05, 1.05, f'Total Vulnerabilities: {total_vulnerabilities}',
-             horizontalalignment='right', verticalalignment='top',
-             transform=plt.gca().transAxes,
-             fontsize=12, bbox=dict(facecolor='white', edgecolor='black', boxstyle='round,pad=0.5'))
-    #Add the number of occurrences at the top of each bar
-    for bar in bars:
-        yval = bar.get_height()
-        plt.text(bar.get_x() + bar.get_width() / 2.0, yval + 0.1, int(yval),
-                 ha='center', va='bottom', fontsize=10, color='black')
-
+    plt.legend()
     plt.show()
 
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        print("Usage: python3 plotting_mythril.py <analysis_text>")
+    if len(sys.argv) != 3:
+        print("Usage: python3 plotting_mythril.py <gpt_analysis_text> <deepseek_analysis_text>")
         sys.exit(1)
     
-    file_path = sys.argv[1]
-    total_vulnerable_contracts, not_compilable, total_low_vulnerabilities, total_medium_vulnerabilities, total_high_vulnerabilities, average_low, average_medium, average_high = analyze_vulnerabilities(file_path)
-    vulnerability_dict = extract_vulnerabilities(open(file_path, 'r').read())
-    plot_data(total_vulnerable_contracts, not_compilable, total_low_vulnerabilities, total_medium_vulnerabilities, total_high_vulnerabilities, average_low, average_medium, average_high, vulnerability_dict)
+    gpt_file_path = sys.argv[1]
+    deepseek_file_path = sys.argv[2]
+
+    #GPT-4 DATA
+    gpt_data = analyze_vulnerabilities(gpt_file_path)
+    gpt_dict = extract_vulnerabilities(open(gpt_file_path, 'r').read())
+
+    #DEEPSEEK-CODER DATA
+    deepseek_data = analyze_vulnerabilities(deepseek_file_path)
+    deepseek_dict = extract_vulnerabilities(open(deepseek_file_path, 'r').read())
+
+    #PLOTTING
+    plot_data_comparison(gpt_data, deepseek_data, gpt_dict, deepseek_dict)
